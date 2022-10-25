@@ -19,20 +19,21 @@ p{
 }
 .inline1{
     float: left;
-    width: 18em;
+    width: 48%;
     height: auto;
     padding: 5px;
 }
 .inline2{
     float: right;
-    width: 18em;
+    width: 48%;
     height: auto;
     padding: 5px;
 }
 a{
     text-decoration: none;
     color: rgba(119, 119, 119, 0.561);
-    font-size: 13px;
+    font-size: 1.2em;
+    
 }
 .newspaper-container{
     padding: 10%;
@@ -57,26 +58,36 @@ nav{
     position: sticky;
     top: 0.3em;
     background-color: white;
+    text-align: center;
 }
-.in-a-row{
-    display: inline;
+.in-a-row {
+    display: inline-block;
 
 }
 .row1{
-    width: 33.33%;
+    width: 32%;
     float: left;
     height: auto;
     padding: 5px;
 }
 .row2{
-    width: 33.33%;
+    width: 32%;
     float: left;
     height: auto;
     padding: 5px;
 }
 .row3{
-    width: 33.33%;
+    width: 32%;
     float: right;
     height: auto;
     padding: 5px;
+}
+.NYU{
+    width: 19em;
+    height: 22em;
+}
+.darkFooter{
+    background-color: ;
+    color:  Black;
+    text-align: center;
 }
